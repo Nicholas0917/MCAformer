@@ -11,7 +11,7 @@ To address this challenge, this paper proposes a novel model called the Multi-sc
 2. It leverages a multi-head attention approach, where each head uses a different time decay coefficient to construct the unidirectional time decay matrix. This allows the model to capture time series patterns at different time scales.
 3. The model also employs a simple gated linear unit to adaptively adjust the weights of different variables, effectively modeling the correlations between them.
 
-![model_structure](https://github.com/Nicholas0917/MCAformer/assets/49270065/01c7e7b1-8677-4776-9760-2199b441527e){:width="400px"}
+![model_structure](https://github.com/Nicholas0917/MCAformer/assets/49270065/01c7e7b1-8677-4776-9760-2199b441527e){:width="200px"}
 
 
 Experiments on public datasets demonstrate that the proposed MCAformer achieves strong performance, outperforming conventional time series models. 
