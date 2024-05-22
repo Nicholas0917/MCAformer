@@ -5,7 +5,8 @@ Time series data exhibits inherent temporal dependencies, where the relationship
 
 To address this challenge, this paper proposes a novel model called the Multi-scale Chronological Aware Transformer (MCAformer). The key innovations of this model are:
 
-1. It incorporates a unidirectional time decay matrix into the traditional attention mechanism to explicitly introduce the temporal ordering of the time series. ![CAAttn](https://github.com/Nicholas0917/MCAformer/assets/49270065/011822b6-6d03-4ba6-8a6e-57aacf433bff)
+1. It incorporates a unidirectional time decay matrix into the traditional attention mechanism to explicitly introduce the temporal ordering of the time series. ![CAAttn](https://github.com/Nicholas0917/MCAformer/assets/49270065/7bce8dc1-9a95-456c-8635-9b6bc3cd73ff)
+
 
 2. It leverages a multi-head attention approach, where each head uses a different time decay coefficient to construct the unidirectional time decay matrix. This allows the model to capture time series patterns at different time scales.
 3. The model also employs a simple gated linear unit to adaptively adjust the weights of different variables, effectively modeling the correlations between them.
@@ -14,5 +15,6 @@ To address this challenge, this paper proposes a novel model called the Multi-sc
 
 
 Experiments on public datasets demonstrate that the proposed MCAformer achieves strong performance, outperforming conventional time series models. 
+![result](https://github.com/Nicholas0917/MCAformer/assets/49270065/c90d502e-926f-4e5c-8eb8-f23729520e25)
 
-[result.pdf](https://github.com/Nicholas0917/MCAformer/files/15403355/result.pdf)
+
