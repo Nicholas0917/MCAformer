@@ -15,4 +15,4 @@ To address this challenge, this paper proposes a novel model called the Multi-sc
 
 Experiments on public datasets demonstrate that the proposed MCAformer achieves strong performance, outperforming conventional time series models. 
 
-![result](https://github.com/Nicholas0917/MCAformer/assets/49270065/6ea2097f-252b-43d2-ac22-7888e270150d)
+[result.pdf](https://github.com/Nicholas0917/MCAformer/files/15403355/result.pdf)
